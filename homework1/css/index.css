@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.clearfix:after{
+	content: ""; 
+  	display: block; 
+ 	height: 0; 
+  	clear: both; 
+  	visibility: hidden; 
+}
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+ }
+.whole{
+	width: 600px;
+	height: 800px;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(#fecef2,#fff);
+	background: -o-linear-gradient(#fecef2,#fff);
+	background: linear-gradient(#fecef2,#fff);
+}
+.whole>.header{
+}
+.whole>.header>.img{
+	float: left;
+	cursor: pointer;
+}
+.whole>.header>.button{
+	float: right;
+}
+.whole>.header>.button>a{
+	margin-right: 5px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bolder;
+}
+.whole>.main{
+	background: #fecef2; 
+}
+.whole>.main>img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.whole>.main>.player{
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.whole>.main>.player>.title>p{
+	display: inline-block;
+	font-size: 18px;
+}
+.whole>.main>.player>.title>img{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.whole>.main>.player>.bar{
+
+}
+.whole>.main>.player>.bar>p{
+	text-align: right;
+}
+.whole>.main>.player>.operate{
+	margin: 0 auto;
+}
+.whole>.main>.player>.operate>img{
+	float: left;
+	margin-left: 32px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.whole>.search{
+	background: #fecef2;
+}
+.whole>.search>.search-box{
+	width: 350px;
+	height: 30px;
+	background: #e599d2;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: right;
+	border-radius: 5px;
+}
+.whole>.search>.search-box>img{
+	float: right;
+	display: block;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.whole>.content>.content-list{
+	float: left;
+	margin-left: 20px;
+	width: 150px;
+	height: 400px;
+	background: #c6b2c1;
+}
+.whole>.content>.content-list>ul>li{
+	width:148px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(#de8fc3,#ebb5d3);
+	border:1px solid #a56e97;
+}
+.whole>.content>.content-list>ul>li>a{
+	color: #fff;
+}
+.whole>.content>.content-list>ul>li:hover{
+	background:linear-gradient(#de8fc3,#fff);
+}
+.whole>.content>.content-content{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-left: 20px;
+	background: #c6b2c1;
+}
+.whole>.content>.content-content>.music{
+	width: 400px;
+	height: 30px;
+}
+.whole>.content>.content-content>.music>p{
+	float: left;
+	display: block;
+	width: 130px;
+	height: 30px;
+	background: #d4a7c2;
+	padding-right: 3px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-bottom: 1px solid gray;
+}
+.whole>.content>.content-content>.song{
+	cursor: pointer;
+	width: 400px;
+	height: 30px;
+}
+.whole>.content>.content-content>.song>p{
+	float: left;
+	display: block;
+	width: 129px;
+	height: 30px;
+	padding-right: 3px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 0;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	padding-bottom: 0;
+}
+.whole>.content>.content-content>.song>div>p{
+	float: left;
+	display: block;
+	width: 129px;
+	height: 30px;
+	padding-right: 3px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 0;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	padding-bottom: 0;
+	 background: #9d8597;
+}
+.highlight {
+	background: yellow;
+	color: red;
+	padding: 5px 10px;
+} 
+#tip {
+	background: #ffc; 
+	border: 1px solid #999; 
+	width: 110px; 
+	text-align: center;  
+	display: none; 
+	font-size: 12px;
+}
+#local{
+	background:-webkit-linear-gradient(#de8fc3, #fff);
+	background:-o-linear-gradient(#de8fc3, #fff);
+	background:linear-gradient(#de8fc3, #fff);
+}
